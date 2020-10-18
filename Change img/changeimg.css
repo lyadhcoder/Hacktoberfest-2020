@@ -1,0 +1,27 @@
+img,#button1,#button2{
+	width: 50%;
+	height: 370px;
+	position: absolute;
+	border: 12px solid orange;
+	top: 150px;
+	left: 25%;
+	box-sizing: border-box;
+}
+
+#button1,#button2{
+	width:20%;
+	height: 50px;
+	background-color: green;
+	font-weight: bold;
+	color: white;
+	padding-top: 15px;
+	border: 1px solid black;
+	text-align: center;
+	vertical-align: middle;
+	left: 30%;
+	top: 600px; 
+}
+
+#button1:hover,#button2:hover{
+	cursor: pointer;
+}

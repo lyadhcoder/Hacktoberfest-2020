@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Digital Clock</title>
+	<link rel="stylesheet" type="text/css" href="clock.css">
+</head>
+<body>
+
+	<div id="container">
+		<!--blocks for hrs,mins and secs--->
+		<div id="box1"></div>
+		<div id="box2" style="left: 33.37%"></div>
+		<div id="box3" style="left: 66.71%"></div>
+
+		<!--buttons for adjusting time--->
+		<div id="button" onclick="mininc();">Min+</div>
+		<div id="button" style="left: 25%" onclick="mindec();">Min-</div>
+		<div id="button" style="left: 50%" onclick="hrinc();">Hr+</div>
+		<div id="button" style="left: 75%" onclick="hrdec();">Hr-</div>
+
+	</div>
+<script type="text/javascript" src="clock.js"></script>
+</body>
+</html>
